@@ -1,13 +1,3 @@
-<img src="https://i.imgur.com/Q0eCYG3.png" alt="Image 1">
-<img src="https://i.imgur.com/wxbfixk.png" alt="Image 2">
-<img src="https://i.imgur.com/XFL1m59.png" alt="Image 3">
-<img src="https://i.imgur.com/ckR7fo8.png" alt="Image 4">
-<img src="https://i.imgur.com/rD1j5SE.png" alt="Image 5">
-<img src="https://i.imgur.com/Qx7GfMl.png" alt="Image 6">
-<img src="https://i.imgur.com/6pdlW8g.png" alt="Image 7">
-<img src="https://i.imgur.com/FlqNITr.png" alt="Image 8">
-<img src="https://i.imgur.com/oU7kSiA.png" alt="Image 9">
-<img src="https://i.imgur.com/DXD88S6.png" alt="Image 10">
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,6 +6,37 @@
     <title>My Time Capsule</title>
     <!-- Link to CSS file -->
     <link rel="stylesheet" href="styles/main.css">
+    <style>
+        /* Style the grid layout for images */
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns */
+            gap: 16px;
+            padding: 20px;
+        }
+
+        .image-box {
+            overflow: hidden;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+        }
+
+        .image-box img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .image-box img:hover {
+            transform: scale(1.1); /* Zoom effect on hover */
+        }
+
+        /* Style for the header and subheader */
+        header, .subheader {
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
 </head>
 <body>
     <!-- Header -->
@@ -30,16 +51,16 @@
 
     <!-- Image Gallery -->
     <main class="image-grid">
-        <div class="image-box"><img src="https://i.imgur.com/wxbfixk.jpg" alt="Image 1"></div>
-        <div class="image-box"><img src="https://i.imgur.com/XFL1m59.jpg" alt="Image 2"></div>
-        <div class="image-box"><img src="https://i.imgur.com/ckR7fo8.jpg" alt="Image 3"></div>
-        <div class="image-box"><img src="https://i.imgur.com/rD1j5SE.jpg" alt="Image 4"></div>
-        <div class="image-box"><img src="https://i.imgur.com/Qx7GfMl.jpg" alt="Image 5"></div>
-        <div class="image-box"><img src="https://i.imgur.com/6pdlW8g.jpg" alt="Image 6"></div>
-        <div class="image-box"><img src="https://i.imgur.com/FlqNITr.jpg" alt="Image 7"></div>
-        <div class="image-box"><img src="https://i.imgur.com/oU7kSiA.jpg" alt="Image 8"></div>
-        <div class="image-box"><img src="https://i.imgur.com/DXD88S6.jpg" alt="Image 9"></div>
-        <div class="image-box"><img src="https://i.imgur.com/Q0eCYG3.jpg" alt="Image 10"></div>
+        <div class="image-box"><img src="https://i.imgur.com/Q0eCYG3.png" alt="Image 1"></div>
+        <div class="image-box"><img src="https://i.imgur.com/wxbfixk.png" alt="Image 2"></div>
+        <div class="image-box"><img src="https://i.imgur.com/XFL1m59.png" alt="Image 3"></div>
+        <div class="image-box"><img src="https://i.imgur.com/ckR7fo8.png" alt="Image 4"></div>
+        <div class="image-box"><img src="https://i.imgur.com/rD1j5SE.png" alt="Image 5"></div>
+        <div class="image-box"><img src="https://i.imgur.com/Qx7GfMl.png" alt="Image 6"></div>
+        <div class="image-box"><img src="https://i.imgur.com/6pdlW8g.png" alt="Image 7"></div>
+        <div class="image-box"><img src="https://i.imgur.com/FlqNITr.png" alt="Image 8"></div>
+        <div class="image-box"><img src="https://i.imgur.com/oU7kSiA.png" alt="Image 9"></div>
+        <div class="image-box"><img src="https://i.imgur.com/DXD88S6.png" alt="Image 10"></div>
     </main>
 
     <!-- Amazigh Flag -->
