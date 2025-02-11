@@ -1,12 +1,5 @@
-
-source 'https://rubygems.org'
-
-gem 'jekyll', '~> 4.0'
-
-gem 'jekyll-theme-minimal'
-
 title: EYES my ACAIS
 description: A TIME CAPSULE
-baseurl: "" 
-url: "https://chandeshala.github.io"  
-theme: jekyll-theme-minimal  
+baseurl: ""
+url: "https://chandeshala.github.io"
+theme: jekyll-theme-minimal
